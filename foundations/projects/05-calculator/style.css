@@ -1,0 +1,39 @@
+body{
+    background-color: gray;
+}
+
+.calcultor-container{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 700px;
+    margin-left: 300px;
+
+}
+
+.screen{
+    background-color: white;
+    width: 300px;
+    height: 50px;
+}
+
+.row1, .row2, .row3, .row4, .row5{
+    display: flex;
+    height: 50px;
+    width: 300px;
+}
+
+button{
+    height: 50px;
+    width: 60px;
+}
+
+.operation{
+    background-color: orange;
+}
+.number{
+    background-color: gray;
+}
+.option{
+    background-color: darkgray;
+}

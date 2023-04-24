@@ -1,0 +1,130 @@
+body {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
+/* content */
+.header {
+    display: flex;
+    color: #F9FAF8;
+    font-size: 28px;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+#header-right {
+    display: flex;
+    gap: 20px;
+}
+
+/* Top content */
+.top-div {
+    display: flex;
+    flex: auto;
+    justify-content: space-around;
+    align-items: center;
+    padding: 150px;
+}
+
+#top-div-left, #top-div-right{
+    display: flex;
+    width: 800px;
+    height: 350px;
+
+}
+
+#top-div-left{
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#tarot-img {
+     width: 480px;
+     height: 230px;
+     border-radius: 10px;
+}
+
+#welcome{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color:#F9FAF8  ;
+}
+
+#primary-text{
+    color: white;
+}
+/* random information */
+
+.random-information {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    padding: 150px;
+    gap: 50px;
+    background-color: whitesmoke;
+}
+
+#info-container{
+    display: flex;
+    gap: 20px;
+}
+
+#info{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border: #1F2937;
+    border-radius: 10px;
+    background-color: white;
+    justify-self: center;
+    align-items: center;
+} 
+#img-info{
+    display: flex;
+    flex: auto;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;    
+    align-self: center;
+}  
+
+#information-text{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: extra-bold;
+}
+
+/* Description */
+.description{
+    display: flex;
+    padding: 150px;
+    background-color:#e5e7eb ;
+}
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-self: center;
+}
+
+/* Style */
+
+#secondary-text{
+    font-size: 36px;
+    color: #1f2937 ;
+    font-style: italic ;
+    font-weight: lighter;
+}
+
+button{
+    color: #3882f6;
+}
